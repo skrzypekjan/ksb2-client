@@ -1,0 +1,39 @@
+<h3>Show Car</h3>
+<div [hidden]="submitted" style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <table style="width: 100%">
+      <td>
+        <tr>ID: </tr>
+        <tr>Mark: </tr>
+        <tr>Model: </tr>
+        <tr>Color: </tr>
+        <tr>Select new color: </tr>
+      </td>
+      <td>
+        <tr>{{car.id}}</tr>
+        <tr>{{car.mark}}</tr>
+        <tr>{{car.model}}</tr>
+        <tr>{{car.color}}</tr>
+        <tr>
+          <select type="text" class="form-control" id="color" required [(ngModel)]="car.color" name="color">
+            <option>RED</option>
+            <option>BLACK</option>
+            <option>WHITE</option>
+            <option>GREEN</option>
+            <option>VIOLET</option>
+            <option>BROWN</option>
+            <option>PURPLE</option>
+            <option>PINK</option>
+            <option>PLUM</option>
+            <option>DARKBLUE</option>
+            <option>YELLOW</option>
+            <option>ORANGE</option>
+            <option>DARKGREEN</option>
+          </select>
+        </tr>
+      </td>
+    </table>
+    <button type="submit" class="btn btn-success">Save</button>
+    <button routerLink="cars" class="btn btn-info" style="margin-left: 10px">Back to list</button>
+  </form>
+</div>
