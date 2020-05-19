@@ -11,5 +11,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 * Listens to my rest-api: [https://cars-app-ksb2.herokuapp.com/cars](https://cars-app-ksb2.herokuapp.com/cars)
 * Car management application
 * You can test it [here](https://cars-app-ksb2-client.herokuapp.com/cars)
-* The application freezes when inactive. Both REST and Angular, so if the page or data is loading for a longer time please be patient.
+* The application freezes when inactive. Both REST and Angular, so if the page or data is loading for a longer time please be patient, or try refreshing your browser.
   
